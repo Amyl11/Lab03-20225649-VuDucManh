@@ -1,7 +1,8 @@
 public class AIMS {
     public static void main(String[] args) {
 
-        cart anOrder = new cart();
+        cart anOrder = new cart(); 
+        //this is comment
 
         DVD dvd1 = new DVD("The Lion King","Animation",
                 "Roger Allers",87,19.95f);
@@ -18,3 +19,4 @@ public class AIMS {
         System.out.printf("Total cost is: %.2f",anOrder.totalCost());
     }
 }
+
